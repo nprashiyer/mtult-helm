@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/nprashiyer/mtult-helm/compare/iyer-v1.0.3...iyer-v1.1.0) (2024-02-05)
+
+
+### Features
+
+* major on iyer ([61db46a](https://github.com/nprashiyer/mtult-helm/commit/61db46ae05b22d7939dce09fb26d55365bcb4689))
+
 ## [1.0.3](https://github.com/nprashiyer/mtult-helm/compare/iyer-v1.0.2...iyer-v1.0.3) (2024-02-05)
 
 
