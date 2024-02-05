@@ -1,0 +1,7 @@
+{
+    "release-type": "helm",
+    "packages": {
+      "chartA": {},
+      "chartB": {}
+    }
+  }
