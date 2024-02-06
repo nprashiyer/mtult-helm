@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/nprashiyer/mtult-helm/compare/iyer-v1.2.0...iyer-v1.2.1) (2024-02-06)
+
+
+### Bug Fixes
+
+* update 1 on A ([5046921](https://github.com/nprashiyer/mtult-helm/commit/504692133ce22ef4f998c1ec04863287e5f56d76))
+
 ## [1.2.0](https://github.com/nprashiyer/mtult-helm/compare/iyer-v1.1.0...iyer-v1.2.0) (2024-02-06)
 
 
