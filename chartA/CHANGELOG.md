@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/nprashiyer/mtult-helm/compare/iyer-v1.3.1...iyer-v1.3.2) (2024-02-06)
+
+
+### Bug Fixes
+
+* as ([035d9ce](https://github.com/nprashiyer/mtult-helm/commit/035d9ce2949021bf2be3061318bf953d338214c8))
+
 ## [1.3.1](https://github.com/nprashiyer/mtult-helm/compare/iyer-v1.3.0...iyer-v1.3.1) (2024-02-06)
 
 
