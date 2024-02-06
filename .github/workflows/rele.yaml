@@ -8,6 +8,7 @@ jobs:
   chart-path:
     runs-on: ubuntu-latest
     steps:
+        - uses: actions/checkout@v4
         - name: Get Chart Path
           id: get-chart-path
           run: |
