@@ -13,7 +13,7 @@ jobs:
           run: |
             chart_name=$(echo $GITHUB_REF_NAME| rev | cut -d'-' -f2- | rev)
             echo $chart_name
-            grep -rl --include=Chart.yaml "$chart_name" . | xargs dirname
+            grep -rl --include=Chart.yaml "$chart_name" . | xargs -I{} sh -c 'echo $(dirname {}) | sed "s|^\./||"'
             chart_path=$(find . -name Chart.yaml -exec sh -c "yq r {} 'name' | grep -q '$chart_name' && echo \$(dirname {})" \;)
             echo "path -->  $chart_path "
             echo "chart_path=$chart_path" >> "$GITHUB_OUTPUT"
