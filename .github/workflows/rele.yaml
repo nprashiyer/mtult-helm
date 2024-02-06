@@ -1,0 +1,21 @@
+name: Build and Publish
+
+on:
+  release:
+    types: [ published ]
+
+jobs:
+  chart-path:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Get Chart Path
+          id: get-chart-path
+          run: |
+            chart_name=$(echo $GITHUB_REF_NAME| rev | cut -d'-' -f2- | rev)
+            echo $chart_name
+            find . -name Chart.yaml -exec sh -c "yq r {} 'name' | grep -q $chart_name && echo \$(dirname {})" \;
+            chart_path=$(find . -name Chart.yaml -exec sh -c "yq r {} 'name' | grep -q '$chart_name' && echo \$(dirname {})" \;)
+            echo "path -->  $chart_path "
+            echo "chart_path=$chart_path" >> "$GITHUB_OUTPUT"
+    outputs:
+        chart_path: ${{ steps.get-chart-path.outputs.chart_path }}
