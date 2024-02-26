@@ -11,13 +11,15 @@ jobs:
 
     steps:
       - name: s1
+        id: set-branch
         run: |
           commit_hash=$(echo ${{ github.sha }} | head -c 8);
           branch="$GITHUB_REF_NAME-$commit_hash"
           echo $branch
+          echo "BRANCH=$branch" >> $GITHUB_OUTPUT
 
       - name: env list
         run: env
 
       - name: s3
-        run: echo $branch
+        run: echo ${{ steps.set-branch.outputs.BRANCH }}
