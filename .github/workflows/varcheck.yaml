@@ -1,0 +1,23 @@
+name: Test Var
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  job_one:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: s1
+        run: |
+          commit_hash=$(echo ${{ github.sha }} | head -c 8);
+          branch="$GITHUB_REF-$commit_hash"
+          echo $branch
+
+      - name: env list
+        run: env
+
+      - name: s3
+        run: echo $branch
