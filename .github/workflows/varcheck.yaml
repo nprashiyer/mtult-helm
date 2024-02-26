@@ -13,7 +13,7 @@ jobs:
       - name: s1
         run: |
           commit_hash=$(echo ${{ github.sha }} | head -c 8);
-          branch="$GITHUB_REF-$commit_hash"
+          branch="$GITHUB_REF_NAME-$commit_hash"
           echo $branch
 
       - name: env list
