@@ -5,6 +5,9 @@ on:
     workflows: [Test Var]
     types:
       - completed
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   job_one:
