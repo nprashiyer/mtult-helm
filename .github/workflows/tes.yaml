@@ -1,4 +1,4 @@
-name: Test Var
+name: Dummy
 
 on:
   workflow_run:
