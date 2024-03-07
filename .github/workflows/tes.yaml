@@ -19,3 +19,4 @@ jobs:
         run: |
           echo "This is being auto-call"
           echo Hi
+          echo ${{ github.head_ref }}
