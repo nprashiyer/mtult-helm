@@ -1,7 +1,9 @@
 {
     "release-type": "helm",
+    "include-component-in-tag": false,
     "packages": {
-      "chartA": {},
+      "chartA": {
+      },
       "chartB": {}
     }
   }
