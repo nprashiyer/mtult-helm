@@ -16,6 +16,6 @@ jobs:
       - uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.MY_RELEASE_PLEASE_TOKEN }}
-          monorepo-tags: false
+          monorepo-tags: true
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
