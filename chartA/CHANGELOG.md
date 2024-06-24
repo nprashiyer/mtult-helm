@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/nprashiyer/mtult-helm/compare/v1.4.0...v1.4.1) (2024-06-24)
+
+
+### Bug Fixes
+
+* Update values.yaml ([96407b5](https://github.com/nprashiyer/mtult-helm/commit/96407b5280bbe2ca6be8e06cfaf46f629102b358))
+
 ## [1.4.0](https://github.com/nprashiyer/mtult-helm/compare/v1.3.4...v1.4.0) (2024-06-24)
 
 
