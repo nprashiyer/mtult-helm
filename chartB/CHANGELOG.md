@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0](https://github.com/nprashiyer/mtult-helm/compare/v1.1.0...v1.2.0) (2024-06-24)
+
+
+### Features
+
+* major on B ([a04c2b9](https://github.com/nprashiyer/mtult-helm/commit/a04c2b935bd5c12dfa42805d9ab59011b8129382))
+
+
+### Bug Fixes
+
+* minor on B ([92dba42](https://github.com/nprashiyer/mtult-helm/commit/92dba4248d9cf8d8ce8cba513b9df485d4660535))
+* patch onprash ([fa89778](https://github.com/nprashiyer/mtult-helm/commit/fa89778b4ba59dce8d572122c0041529eed0be63))
+* re ([9c5cee4](https://github.com/nprashiyer/mtult-helm/commit/9c5cee4e61c769641dd04659aafb31f2562edc6b))
+
 ## [1.1.0](https://github.com/nprashiyer/mtult-helm/compare/v1.0.3...v1.1.0) (2024-06-24)
 
 
